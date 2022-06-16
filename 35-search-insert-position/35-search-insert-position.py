@@ -18,7 +18,4 @@ class Solution(object):
         if nums[current] < target:
             return current + 1
         else:
-            if current == 0:
-                return 0
-            else:
-                return current
+            return current
